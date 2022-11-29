@@ -1,0 +1,4 @@
+- hosts: sonar
+  become: true
+  roles:
+  - role: /home/ubuntu/bookofplay/java/roles/java_ub
